@@ -87,6 +87,7 @@
     <CudaCompile Include="sobel.cu" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\README.md" />
     <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
