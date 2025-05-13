@@ -84,11 +84,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <CudaCompile Include="kernel.cu" />
-    <CudaCompile Include="sobel.cu" />
+    <CudaCompile Include="cv_kernels.cu" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
-    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cv_kernels.cuh" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
