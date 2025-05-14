@@ -9,10 +9,6 @@ __global__ void sobelKernel(const unsigned char* src, unsigned char* dst, int wi
 __global__ void meanFilterKernel(const unsigned char* src, unsigned char* dst, int width, int height, int step, int kernelSize);
 __global__ void medianFilterKernel(const unsigned char* src, unsigned char* dst, int width, int height, int step, int kernelSize);
 
-void runSobelKernel(const unsigned char* src, unsigned char* dst, int width, int height, int step);
-void runMeanFilter(const unsigned char* src, unsigned char* dst, int width, int height, int step, int kernelSize);
-void runMedianFilter(const unsigned char* src, unsigned char* dst, int width, int height, int step, int kernelSize);
-
 __global__ void sobelKernel(const unsigned char* src, unsigned char* dst, int width, int height, int step) {
     int x = blockIdx.x * blockDim.x + threadIdx.x;
     int y = blockIdx.y * blockDim.y + threadIdx.y;
