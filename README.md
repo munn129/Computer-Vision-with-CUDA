@@ -39,7 +39,7 @@ TBB don't need to build
 
 * TBB: https://github.com/uxlfoundation/oneTBB/releases
 
-### 2.4 libtorch
+### 2.4 libtorch(not yet)
 1. Install libtorch and unzip
 
 Libtorch don't need to build too.
