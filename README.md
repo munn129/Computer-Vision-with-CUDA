@@ -61,7 +61,7 @@ Additionally, your CPU should be an Intel processor or support OneAPI for TBB.
 There's no need to build TBB.
 
 > **For Windows users:**
-> Add directory of `tbb.dll` to system environment variable.
+> Add directory of tbb files to system environment variable.
 > if you didn't add it, Visual Studio can not find dll files.
 
 * TBB: https://github.com/uxlfoundation/oneTBB/releases
@@ -72,7 +72,7 @@ There's no need to build TBB.
 Libtorch also doesn’t need to be built.
 
 > **For Windows users:**
-> Add the directory containing `torch.lib` to your system environment variables as well.
+> Add the directory containing torch files to your system environment variables as well.
 
 * libtorch: https://pytorch.org/get-started/locally/
 
