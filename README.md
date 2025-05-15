@@ -1,4 +1,4 @@
-# computer vision with CUDA
+# Computer Vision with CUDA
 
 ## 1. Intro
 This project aims to compare CV algorithms and identify the fastest one,
@@ -30,10 +30,27 @@ Additionally, yout CPU should be an Intel processor or support OneAPI for TBB.
 * opencv-contrib: https://github.com/opencv/opencv_contrib
 * cmake: https://cmake.org/download/
 
-### 2.3 TBB
-1. Install TBB and unzip
+### 2.2.1 CMake Flags
+* BUILD_SHARED_LIBS = ON
+* BUILD_WITH_STATIC_CRT = OFF
+* BUILD_opencv_world = ON
+* OPENCV_ENABLE_NONFREE = ON
+* OPENCV_EXTRA_MODULE_PATH = 'path-of-opencv-contrib-module'
+* OPENCV_DNN_CUDA = ON
+* WITH_CUDA = ON
+* WITH_CUDNN = ON
+* WITH_CUBLAS = ON
+* WITH_CUFFT = ON
+* CUDA_FAST_MATH = ON
 
-TBB don't need to build
+Note:
+You may need to configure first to see all options.
+Depending on your hardware specifications (such as GPU compute capability, available memory, or installed drivers), additional configuration may be required. Be sure to check and adjust settings like CUDA_ARCH_BIN and other CUDA-related flags in CMake to match your system environment.
+
+### 2.3 TBB
+1. Install TBB and unzip it.
+
+There's no need to build TBB.
 
 (for Windows user) add directory of tbb.dll to system environment variable. if you didn't add it, Visual Studio can not find dll files.
 
@@ -42,7 +59,7 @@ TBB don't need to build
 ### 2.4 libtorch(not yet)
 1. Install libtorch and unzip
 
-Libtorch don't need to build too.
+Libtorch also doesn’t need to be built.
 
 (for Windows user) add directory of torch.lib to system environment variable too.
 
