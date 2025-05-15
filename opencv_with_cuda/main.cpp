@@ -3,11 +3,11 @@
 #include <filesystem>  // need upper version than C++ 17
 #include <opencv2/opencv.hpp>
 #include <opencv2/cudafilters.hpp>
-#include <tbb/tbb.h>
+// #include <tbb/tbb.h>
 
 #include "../cv_methods.hpp"
 
-#define DO_TBB
+// #define DO_TBB
 #define KERNEL_SIZE 5
 
 int essential(void);
