@@ -5,14 +5,6 @@ This project aims to compare CV algorithms and identify the fastest one,
 and develop CUDA kernels faster than OpenCV with CUDA and TBB.
 
 ### 1.1 Project Directory
-project_root/
-├── only_cpu/
-│   └── main.cpp
-├── only_cuda/
-│   ├── cu_kernels.cu
-│   ├── cu_kernels.cuh
-│   └── main.cpp
-
 * only_cpu: using only OpenCV
 * only_cuda: using only CUDA. It contains stream management code.
 * opencv_with_cuda: using `cv::cuda::`
