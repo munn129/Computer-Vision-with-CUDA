@@ -9,6 +9,11 @@ and develop CUDA kernels faster than OpenCV with CUDA and TBB.
 * only_cuda: using only CUDA. It contains stream management code.
 * opencv_with_cuda: using `cv::cuda::`
 
+### 1.2 Progress
+* **Sobel**: Issues depending on the axis direction.
+* **Mean**: Implementation completed
+* **Median**: CUDA kernel under development, issue depending on the sorting method.
+
 ## 2. Environments
 * **OS**: Windows 11
 * **CPU**: intel i9-13900K
