@@ -6,7 +6,7 @@
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
 #include "cv_kernels.cuh"
-#include "cv_methods.hpp"
+#include "../cv_methods.hpp"
 
 #define CUDA_BLOCK_SIZE 16
 #define KERNEL_SIZE 5 // must be odd
