@@ -15,7 +15,7 @@ int streamForConcurrency(void);
 
 int main(void)
 {
-
+    essential(void);
 }
 
 int essential(void)
