@@ -31,21 +31,21 @@ Additionally, yout CPU should be an Intel processor or support OneAPI for TBB.
 * cmake: https://cmake.org/download/
 
 ### 2.2.1 CMake Flags
-* BUILD_SHARED_LIBS = ON
-* BUILD_WITH_STATIC_CRT = OFF
-* BUILD_opencv_world = ON
-* OPENCV_ENABLE_NONFREE = ON
-* OPENCV_EXTRA_MODULE_PATH = 'path-of-opencv-contrib-module'
-* OPENCV_DNN_CUDA = ON
-* WITH_CUDA = ON
-* WITH_CUDNN = ON
-* WITH_CUBLAS = ON
-* WITH_CUFFT = ON
-* CUDA_FAST_MATH = ON
+* `BUILD_SHARED_LIBS = ON`
+* `BUILD_WITH_STATIC_CRT = OFF`
+* `BUILD_opencv_world = ON`
+* `OPENCV_ENABLE_NONFREE = ON`
+* `OPENCV_EXTRA_MODULE_PATH = 'path-of-opencv-contrib-module'`
+* `OPENCV_DNN_CUDA = ON`
+* `WITH_CUDA = ON`
+* `WITH_CUDNN = ON`
+* `WITH_CUBLAS = ON`
+* `WITH_CUFFT = ON`
+* `CUDA_FAST_MATH = ON`
 
-Note:
+**Note:**
 You may need to configure first to see all options.
-Depending on your hardware specifications (such as GPU compute capability, available memory, or installed drivers), additional configuration may be required. Be sure to check and adjust settings like CUDA_ARCH_BIN and other CUDA-related flags in CMake to match your system environment.
+Depending on your hardware specifications (such as GPU compute capability, available memory, or installed drivers), additional configuration may be required. Be sure to check and adjust settings like `CUDA_ARCH_BIN` and other CUDA-related flags in CMake to match your system environment.
 
 ### 2.3 TBB
 1. Install TBB and unzip it.
