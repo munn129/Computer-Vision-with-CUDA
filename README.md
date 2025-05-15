@@ -12,7 +12,7 @@ and develop CUDA kernels faster than OpenCV with CUDA and TBB.
 - openCV: 4.10
 
 To run this project, you must install CUDA and build OpenCV with CUDA.
-Additionally, yout CPU should be an Intel processor or support OneAPI for TBB.
+Additionally, your CPU should be an Intel processor or support OneAPI for TBB.
 
 ### 2.1 CUDA
 1. Install NVIDIA graphic driver -> CUDA -> cuDNN
