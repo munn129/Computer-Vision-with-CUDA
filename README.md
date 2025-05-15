@@ -21,8 +21,8 @@ Additionally, your CPU should be an Intel processor or support OneAPI for TBB.
 
 ### 2.1 CUDA
 1. Install NVIDIA graphic driver -> CUDA -> cuDNN
-2. Move cuDNN files to CUDA directory
-`cudnn*.h` -> CUDA/v12.6/include
+2. Move cuDNN files to CUDA directory  
+`cudnn*.h` -> CUDA/v12.6/include  
 `cudnn*.lib` -> CUDA/v12.6/lib/x64
 
 * NVIDIA graphics driver: https://www.nvidia.com/en-us/drivers/
